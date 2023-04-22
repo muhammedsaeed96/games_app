@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../../core/config/size_config.dart';
-import '../../../../core/utils/constants.dart';
+import '../../core/config/size_config.dart';
+import '../../core/utils/constants.dart';
 import 'widgets/home_body.dart';
 import 'widgets/home_header.dart';
 

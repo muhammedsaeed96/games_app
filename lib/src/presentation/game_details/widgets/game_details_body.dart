@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:games_app/src/core/widgets/cashed_image.dart';
-import 'package:games_app/src/features/home/data/models/game_model.dart';
-import '../../../../../core/utils/constants.dart';
-import '../../../../../core/widgets/default_button.dart';
-import '../../../../../core/widgets/game_ratings_icons.dart';
-import '../../../../../core/widgets/rounded_container.dart';
+import '../../../core/utils/constants.dart';
+import '../../../core/widgets/default_button.dart';
+import '../../../core/widgets/game_ratings_icons.dart';
+import '../../../core/widgets/rounded_container.dart';
+import '../../../domain/game/models/game_model.dart';
 import 'game_details_screenshots.dart';
 
 class GameDetailsBody extends StatelessWidget {

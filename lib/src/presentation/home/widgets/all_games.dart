@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:games_app/src/core/utils/constants.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 
-import '../../cubit/game_cubit/games_cubit.dart';
+import '../cubit/games_cubit.dart';
 import 'game.dart';
 
 class AllGames extends StatelessWidget {

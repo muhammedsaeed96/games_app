@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:games_app/src/features/home/data/models/game_model.dart';
-
+import '../../domain/game/models/game_model.dart';
 import 'widgets/game_details_body.dart';
 import 'widgets/game_details_header.dart';
 

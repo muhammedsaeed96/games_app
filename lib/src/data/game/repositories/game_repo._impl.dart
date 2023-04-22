@@ -2,9 +2,9 @@ import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:games_app/src/core/utils/api_service.dart';
 import 'package:games_app/src/core/utils/exceptions/dio_exceptions.dart';
-import 'package:games_app/src/features/home/data/models/game_model.dart';
 
-import 'game_repo.dart';
+import '../../../domain/game/models/game_model.dart';
+import '../../../domain/game/repositories/game_repo.dart';
 
 class GameRepoImp implements GameRepo {
   GameRepoImp({required this.apiService});

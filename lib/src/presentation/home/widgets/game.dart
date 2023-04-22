@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:games_app/src/core/widgets/cashed_image.dart';
-import 'package:games_app/src/features/home/data/models/game_model.dart';
 
-import '../../../../../core/config/size_config.dart';
-import '../../../../../core/config/themes/app_theme.dart';
-import '../../../../../core/utils/constants.dart';
-import '../../../../../core/widgets/default_button.dart';
-import '../../../../../core/widgets/game_ratings_icons.dart';
-import '../../../../game_details/presentation/views/game_details_view.dart';
+import '../../../core/config/size_config.dart';
+import '../../../core/config/themes/app_theme.dart';
+import '../../../core/utils/constants.dart';
+import '../../../core/widgets/default_button.dart';
+import '../../../core/widgets/game_ratings_icons.dart';
+import '../../../domain/game/models/game_model.dart';
+import '../../game_details/game_details_view.dart';
 
 class Game extends StatelessWidget {
   const Game({super.key, required this.game});

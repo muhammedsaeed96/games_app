@@ -1,7 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:games_app/src/features/home/data/models/game_model.dart';
-import 'package:games_app/src/features/home/data/repositories/game_repo._impl.dart';
+
+import '../../../data/game/repositories/game_repo._impl.dart';
+import '../../../domain/game/models/game_model.dart';
 
 part 'games_state.dart';
 
